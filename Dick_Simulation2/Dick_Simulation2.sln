@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dick_Simulation2", "Dick_Simulation2\Dick_Simulation2.vcxproj", "{72049D22-B689-4726-87C6-1A1867C71B4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72049D22-B689-4726-87C6-1A1867C71B4F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{72049D22-B689-4726-87C6-1A1867C71B4F}.Debug|Win32.Build.0 = Debug|Win32
+		{72049D22-B689-4726-87C6-1A1867C71B4F}.Release|Win32.ActiveCfg = Release|Win32
+		{72049D22-B689-4726-87C6-1A1867C71B4F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

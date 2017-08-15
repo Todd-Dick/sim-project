@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Algorithm headers">
+      <UniqueIdentifier>{c41e4bcf-8268-407c-b533-114f1adb7900}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OilWell headers">
+      <UniqueIdentifier>{be1ff40f-aac5-4a52-83a8-bab684458cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sensor headers">
+      <UniqueIdentifier>{a84a97ac-6cff-4e1f-a311-89952388172e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\A all other headers">
+      <UniqueIdentifier>{23c73721-9837-4033-a7e2-666cb7989da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algorithm Source files">
+      <UniqueIdentifier>{a5a2cb55-c582-4bc8-9359-b33114c6adc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Oil Well Source Files">
+      <UniqueIdentifier>{9a216cc5-4874-4b50-81d3-4012017bc209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sensor Source files">
+      <UniqueIdentifier>{15e7af51-3e2f-47c1-a511-9a78864d9b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\A all other Source Files">
+      <UniqueIdentifier>{dac8743d-de31-4516-8875-34346d6b5a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Data Items">
+      <UniqueIdentifier>{e69e1c89-0722-432c-961c-4356656b43c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algorithm Source files\Algorithm subclasses">
+      <UniqueIdentifier>{7327a32e-1be0-49bb-9081-e005f297ff06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Algorithm headers\Algorithm subclasses">
+      <UniqueIdentifier>{20f5cdad-909e-4fc8-8e7b-d0d47753bcf3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlgorithmFactory.h">
+      <Filter>Header Files\Algorithm headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OilWellFactory.h">
+      <Filter>Header Files\OilWell headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OilWell.h">
+      <Filter>Header Files\OilWell headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SensorFactory.h">
+      <Filter>Header Files\Sensor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensor.h">
+      <Filter>Header Files\Sensor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation2.h">
+      <Filter>Header Files\A all other headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm.h">
+      <Filter>Header Files\Algorithm headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowLinkIfGreater.h">
+      <Filter>Header Files\Algorithm headers\Algorithm subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="RandMin2Max.h">
+      <Filter>Header Files\Algorithm headers\Algorithm subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="StepDecMax2Min.h">
+      <Filter>Header Files\Algorithm headers\Algorithm subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="StepIncMin2Max.h">
+      <Filter>Header Files\Algorithm headers\Algorithm subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowLinkIfChanged.h">
+      <Filter>Header Files\Algorithm headers\Algorithm subclasses</Filter>
+    </ClInclude>
+    <ClInclude Include="WellInfo.h">
+      <Filter>Header Files\OilWell headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SensorInfo.h">
+      <Filter>Header Files\Sensor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyParser.h">
+      <Filter>Header Files\A all other headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AlgorithmFactory.cpp">
+      <Filter>Source Files\Algorithm Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm.cpp">
+      <Filter>Source Files\Algorithm Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="OilWellFactory.cpp">
+      <Filter>Source Files\Oil Well Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OilWell.cpp">
+      <Filter>Source Files\Oil Well Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SensorFactory.cpp">
+      <Filter>Source Files\Sensor Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensor.cpp">
+      <Filter>Source Files\Sensor Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation2.cpp">
+      <Filter>Source Files\A all other Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\A all other Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowLinkIfGreater.cpp">
+      <Filter>Source Files\Algorithm Source files\Algorithm subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="RandMin2Max.cpp">
+      <Filter>Source Files\Algorithm Source files\Algorithm subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="StepDecMax2Min.cpp">
+      <Filter>Source Files\Algorithm Source files\Algorithm subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="StepIncMin2Max.cpp">
+      <Filter>Source Files\Algorithm Source files\Algorithm subclasses</Filter>
+    </ClCompile>
+    <ClCompile Include="WellInfo.cpp">
+      <Filter>Source Files\Oil Well Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SensorInfo.cpp">
+      <Filter>Source Files\Sensor Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyParser.cpp">
+      <Filter>Source Files\A all other Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowLinkIfChanged.cpp">
+      <Filter>Source Files\Algorithm Source files\Algorithm subclasses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="OilFieldData2.xml">
+      <Filter>Source Files\Data Items</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

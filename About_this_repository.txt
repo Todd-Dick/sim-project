@@ -1,0 +1,2 @@
+About me
+I've uploaded the whole project as created in VS. Source code is 2 levels down. Included in that folder is an example exe and a data file.

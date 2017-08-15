@@ -1,0 +1,4 @@
+Project Overview
+
+The simulation is to use a provided data file in a modified xml format. The simulation will prompt for the file name, then parse the file.
+The data file contains information on a number of oil wells. The simulation should display info for the wells and their sensors, with some user interaction.
